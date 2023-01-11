@@ -8,4 +8,122 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body {
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    min-height: 150vh;
+}
 
+.head_main_navigation {
+    width: 760px;
+    padding: 0;
+    height: 80px;
+    background-color:transparent;
+    z-index:3;
+    top: 0;
+    position: absolute;
+    background-color: #540B51;
+}
+
+.main_head_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slacklogo {
+    display:flex;
+    align-items: center;
+    width:125px;
+}
+
+.search_container {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+
+.header_control {
+    padding-top: 50PX;
+    background-color: #540B51;
+    width: 760px;
+}
+
+
+
+.header_line {
+    width: 760px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.7056;
+    font-size:larger;
+    color:white;
+}
+
+.yellow_text {
+    text-align: center;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_secondary {
+    background-color: #fff;
+    box-shadow: inset 0 0 0 1px #611f69;
+    padding: 19px 40px 20px;
+    display: block;
+    border: none;
+    margin-top: 0;
+    width: 80%;
+    text-align: center;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+}
+
+.button_third {
+    background-color: #4285F4;
+    box-shadow: inset 0 0 0 1px #611f69;
+    padding: 19px 40px 20px;
+    display: block;
+    border: none;
+    margin-top: 0;
+    width: 80%;
+    text-align: center;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+}
+
+.google_img {
+    margin-right: 0;
+    display: block;
+    position: absolute;
+    width: 3%;
+}
+
+.hero_img {
+    margin: 5%;
+}
+
+main {
+    background-color: #F3EAE2;
+}
+
+.text_as_sub {
+    font-weight: 700;
+    line-height: 1.125;
+    letter-spacing: .8px;
+    text-align: center;
+}
